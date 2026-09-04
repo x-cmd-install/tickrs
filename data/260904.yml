@@ -7,7 +7,7 @@ about:
   head: dbeaa74
   archived: false
   latestVersion: v0.15.0
-  collectedAt: 2026-09-04T19:52:07Z
+  collectedAt: 2026-09-04T20:50:31Z
 timeline:
   created: 2020-02-20
   lastCommit: 2026-05-19
@@ -80,6 +80,29 @@ total:
   openIssue: 29
   commit: 208
 ---
+path: /home/runner/.x-repo/github.com/tarkah/tickrs
+collectedAt: 2026-09-04T20:50:32Z
+loc:
+  Rust:
+    code: 5946
+    comments: 169
+    blanks: 963
+    files: 35
+  Toml:
+    code: 57
+    comments: 0
+    blanks: 5
+    files: 3
+  Markdown:
+    code: 0
+    comments: 211
+    blanks: 104
+    files: 2
+total:
+  code: 6003
+  comments: 408
+  blanks: 1073
+  files: 40
 ---
 date: "2026-08-24"
 repo:

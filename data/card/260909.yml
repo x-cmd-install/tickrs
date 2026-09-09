@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.15.0"
   latestRelease: "v0.15.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T02:32:30Z
+  collectedAt: 2026-09-09T18:23:41Z
 timeline:
   created: 2020-02-20
   lastCommit: 2026-05-19
@@ -83,7 +83,7 @@ total:
   commit: 208
 ---
 path: /home/runner/.x-repo/github.com/tarkah/tickrs
-collectedAt: 2026-09-09T02:32:31Z
+collectedAt: 2026-09-09T18:23:44Z
 loc:
   Rust:
     code: 5946
@@ -106,36 +106,36 @@ total:
   blanks: 1073
   files: 40
 ---
-date: "2026-08-24"
+date: "2026-09-07"
 repo:
   name: github.com/tarkah/tickrs
   commit: dbeaa747c2a7265bf09f9ab32c8655d1f118fc3a
 scorecard:
-  version: v5.5.1-0.20260815060127-d1fab88f5463
-  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+  version: v5.5.0
+  commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 2.8
 checks:
-  - name: Maintained
-    score: 0
-    reason: 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-    details: null
   - name: Code-Review
     score: 3
     reason: Found 9/30 approved changesets -- score normalized to 3
     details: null
+  - name: Maintained
+    score: 0
+    reason: 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+    details: null
   - name: Binary-Artifacts
     score: 10
     reason: no binaries found in the repo
-    details: null
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
     details: null
   - name: Packaging
     score: -1
     reason: packaging workflow not detected
     details:
       - 'Warn: no GitHub/GitLab publishing workflow detected.'
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
+    details: null
   - name: Token-Permissions
     score: 0
     reason: detected GitHub workflow tokens with excessive permissions
@@ -165,16 +165,16 @@ checks:
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/lints.yml:50: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/lints.yml/master?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/lints.yml:58: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/lints.yml/master?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/lints.yml:64: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/lints.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:127: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:130: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:136: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:146: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:17: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:60: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:68: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:76: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:102: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:113: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/release.yml:127: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
-      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:130: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
-      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:136: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
-      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yml:146: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/release.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/test.yml:32: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/test.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/test.yml:40: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/test.yml/master?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/test.yml:49: update your workflow using https://app.stepsecurity.io/secureworkflow/tarkah/tickrs/test.yml/master?enable=pin'
@@ -185,11 +185,6 @@ checks:
     score: 0
     reason: no effort to earn an OpenSSF best practices badge detected
     details: null
-  - name: Fuzzing
-    score: 0
-    reason: project is not fuzzed
-    details:
-      - 'Warn: no fuzzer integrations found'
   - name: Security-Policy
     score: 0
     reason: security policy file not detected
@@ -198,6 +193,11 @@ checks:
       - 'Warn: no security file to analyze'
       - 'Warn: no security file to analyze'
       - 'Warn: no security file to analyze'
+  - name: Fuzzing
+    score: 0
+    reason: project is not fuzzed
+    details:
+      - 'Warn: no fuzzer integrations found'
   - name: License
     score: 10
     reason: license file detected

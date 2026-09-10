@@ -4,7 +4,7 @@
 
 Realtime ticker data in your terminal 📈
 
-![tickrs](https://repo.x-cmd.io/tickrs.svg)
+![tickrs](https://repo.x-cmd.io/tickrs.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,16 @@ x install tickrs
 - **最新版本**: `v0.15.0` (2025-12-15)
 - **最近提交**: 2026-05-19
 - **Release 含资产**: 5 个
-- **发布时间**: 2025-12-15T20:45:06Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [tickrs-v0.15.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-aarch64-unknown-linux-gnu.tar.gz) | 4.3 MiB | `native/linux/arm64/glibc` |
+| [tickrs-v0.15.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-armv7-unknown-linux-gnueabihf.tar.gz) | 4.3 MiB | `native/linux/arm/glibc` |
+| [tickrs-v0.15.0-x86_64-apple-darwin.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-apple-darwin.tar.gz) | 2.7 MiB | `native/darwin/x64` |
+| [tickrs-v0.15.0-x86_64-pc-windows-msvc.zip](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-pc-windows-msvc.zip) | 2.4 MiB | `native/win/x64` |
+| [tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz) | 4.5 MiB | `native/linux/x64/glibc` |
 
 ## 流行度
 
@@ -69,4 +78,4 @@ tickrs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T02:33:02Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:48:54Z._

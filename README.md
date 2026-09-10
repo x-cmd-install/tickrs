@@ -22,7 +22,16 @@ x install tickrs
 - **Latest**: `v0.15.0` (2025-12-15)
 - **Last commit**: 2026-05-19
 - **Assets in release**: 5
-- **Published**: 2025-12-15T20:45:06Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [tickrs-v0.15.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-aarch64-unknown-linux-gnu.tar.gz) | 4.3 MiB | `native/linux/arm64/glibc` |
+| [tickrs-v0.15.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-armv7-unknown-linux-gnueabihf.tar.gz) | 4.3 MiB | `native/linux/arm/glibc` |
+| [tickrs-v0.15.0-x86_64-apple-darwin.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-apple-darwin.tar.gz) | 2.7 MiB | `native/darwin/x64` |
+| [tickrs-v0.15.0-x86_64-pc-windows-msvc.zip](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-pc-windows-msvc.zip) | 2.4 MiB | `native/win/x64` |
+| [tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz) | 4.5 MiB | `native/linux/x64/glibc` |
 
 ## Popularity
 
@@ -65,8 +74,8 @@ Lowest-scoring checks:
 Install metadata for tickrs lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `tickrs` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/tickrs.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/tickrs.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T02:33:01Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:48:53Z._

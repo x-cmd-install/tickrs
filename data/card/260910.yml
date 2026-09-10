@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.15.0"
   latestRelease: "v0.15.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T15:48:48Z
+  collectedAt: 2026-09-10T20:15:47Z
 timeline:
   created: 2020-02-20
   lastCommit: 2026-05-19
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-12-15
   lastPrerelease: 
 popularity:
-  star: 1691
+  star: 1693
   watcher: 17
   fork: 99
   release: 35
@@ -83,7 +83,7 @@ total:
   commit: 208
 ---
 path: /home/runner/.x-repo/github.com/tarkah/tickrs
-collectedAt: 2026-09-10T15:48:49Z
+collectedAt: 2026-09-10T20:15:48Z
 loc:
   Rust:
     code: 5946

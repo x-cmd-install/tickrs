@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4694040,
       "digest": "sha256:99456e9e2ab6054737d2d087d873e424aae3c632d034d1e1c1c3b987791c27cc",
-      "download_count": 342,
+      "download_count": 344,
       "created_at": "2025-12-15T20:42:43Z",
       "updated_at": "2025-12-15T20:42:44Z",
       "browser_download_url": "https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz"

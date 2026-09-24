@@ -28,9 +28,9 @@ Overall score: **2.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 
 ## Source
 
@@ -45,7 +45,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,696 · **Forks**: 99 · **Open issues**: 81 · **Contributors**: 12
+- **Stars**: 1,697 · **Forks**: 99 · **Open issues**: 81 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -55,12 +55,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-25 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-06-25 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last180d | 2026-03-27 | 0 | 4 | 1 | 0 | 2 | 6 |
-| 360d | 2025-09-28 | 1 | 6 | 1 | 1 | 5 | 11 |
-| last720d | 2024-10-03 | 2 | 8 | 1 | 3 | 10 | 16 |
+| 30d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-26 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-03-28 | 0 | 4 | 1 | 0 | 2 | 6 |
+| 360d | 2025-09-29 | 1 | 6 | 1 | 1 | 5 | 11 |
+| last720d | 2024-10-04 | 2 | 8 | 1 | 3 | 10 | 16 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for tickrs lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T02:48:19Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T02:37:58Z._

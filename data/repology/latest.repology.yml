@@ -1,3 +1,49 @@
+- repo: arch
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
+- repo: aur
+  srcname: tickrs-git
+  binname: tickrs-git
+  visiblename: tickrs-git
+  version: 0.7.1
+  origversion: 0.7.1-1
+  status: rolling
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
+- repo: freebsd
+  srcname: finance/tickrs
+  binname: tickrs
+  visiblename: finance/tickrs
+  version: 0.15.0
+  origversion: 0.15.0_8
+  status: newest
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - lcook@freebsd.org
+  categories:
+    - finance
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
 - repo: manjaro_testing
   subrepo: extra
   srcname: tickrs
@@ -64,52 +110,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: aur
-  srcname: tickrs-git
-  binname: tickrs-git
-  visiblename: tickrs-git
-  version: 0.7.1
-  origversion: 0.7.1-1
-  status: rolling
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
-- repo: freebsd
-  srcname: finance/tickrs
-  binname: tickrs
-  visiblename: finance/tickrs
-  version: 0.15.0
-  origversion: 0.15.0_8
-  status: newest
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - lcook@freebsd.org
-  categories:
-    - finance
 - repo: nix_stable_26_05
   srcname: tickrs
   visiblename: tickrs

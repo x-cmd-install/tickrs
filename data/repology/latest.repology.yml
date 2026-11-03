@@ -1,3 +1,36 @@
+- repo: nix_stable_25_05
+  srcname: tickrs
+  visiblename: tickrs
+  version: 0.14.11
+  origversion: null
+  status: outdated
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: tickrs
+  visiblename: tickrs
+  version: 0.14.9
+  origversion: null
+  status: outdated
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - massimo@typish.io
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: tickrs
+  visiblename: tickrs
+  version: 0.14.10
+  origversion: null
+  status: outdated
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: tickrs
@@ -38,9 +71,9 @@
   srcname: tickrs
   binname: tickrs
   visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
+  version: 0.14.9
+  origversion: 2:0.14.9-1
+  status: outdated
   summary: Realtime ticker data in your terminal
   licenses:
     - MIT
@@ -49,9 +82,9 @@
   srcname: tickrs
   binname: tickrs
   visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
+  version: 0.14.9
+  origversion: 2:0.14.9-1
+  status: outdated
   summary: Realtime ticker data in your terminal
   licenses:
     - MIT
@@ -64,39 +97,6 @@
   origversion: 2:0.15.0-2
   status: newest
   summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: tickrs
-  visiblename: tickrs
-  version: 0.14.9
-  origversion: null
-  status: outdated
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - massimo@typish.io
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: tickrs
-  visiblename: tickrs
-  version: 0.14.10
-  origversion: null
-  status: outdated
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: tickrs
-  visiblename: tickrs
-  version: 0.14.11
-  origversion: null
-  status: outdated
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - fallback-mnt-nix@repology
   licenses:
     - MIT
 - repo: nix_stable_25_11

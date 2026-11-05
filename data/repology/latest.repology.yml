@@ -1,3 +1,26 @@
+- repo: scoop
+  subrepo: main
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: solus
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: null
+  status: newest
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - network.news
 - repo: arch
   subrepo: extra
   srcname: tickrs
@@ -5,6 +28,17 @@
   visiblename: tickrs
   version: 0.15.0
   origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-3
   status: newest
   summary: Realtime ticker data in your terminal
   licenses:
@@ -155,29 +189,6 @@
   summary: Realtime ticker data in your terminal
   licenses:
     - MIT
-- repo: scoop
-  subrepo: main
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: solus
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: null
-  status: newest
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - network.news
 - repo: solus
   srcname: tickrs
   binname: tickrs-dbginfo

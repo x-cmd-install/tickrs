@@ -1,26 +1,25 @@
-- repo: scoop
-  subrepo: main
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: solus
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: tickrs
   binname: tickrs
   visiblename: tickrs
   version: 0.15.0
-  origversion: null
+  origversion: 2:0.15.0-2
   status: newest
   summary: Realtime ticker data in your terminal
-  maintainers:
-    - jared@jaredcervantes.com
   licenses:
     - MIT
-  categories:
-    - network.news
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: tickrs
@@ -68,28 +67,6 @@
   categories:
     - finance
 - repo: manjaro_stable
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.14.9
-  origversion: 2:0.14.9-1
-  status: outdated
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.14.9
-  origversion: 2:0.14.9-1
-  status: outdated
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: manjaro_unstable
   subrepo: extra
   srcname: tickrs
   binname: tickrs
@@ -189,6 +166,29 @@
   summary: Realtime ticker data in your terminal
   licenses:
     - MIT
+- repo: scoop
+  subrepo: main
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: solus
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: null
+  status: newest
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - network.news
 - repo: solus
   srcname: tickrs
   binname: tickrs-dbginfo

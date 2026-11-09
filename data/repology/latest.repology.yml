@@ -1,21 +1,10 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: arch_testing
+  subrepo: extra-testing
   srcname: tickrs
   binname: tickrs
   visiblename: tickrs
   version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
+  origversion: 2:0.15.0-3
   status: newest
   summary: Realtime ticker data in your terminal
   licenses:
@@ -27,17 +16,6 @@
   visiblename: tickrs
   version: 0.15.0
   origversion: 2:0.15.0-2
-  status: newest
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-3
   status: newest
   summary: Realtime ticker data in your terminal
   licenses:
@@ -67,6 +45,28 @@
   categories:
     - finance
 - repo: manjaro_stable
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: tickrs
   binname: tickrs

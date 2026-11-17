@@ -1,3 +1,14 @@
+- repo: arch
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-3
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
 - repo: aur
   srcname: tickrs-git
   binname: tickrs-git
@@ -8,17 +19,6 @@
   summary: Realtime ticker data in your terminal
   maintainers:
     - fallback-mnt-aur@repology
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-3
-  status: newest
-  summary: Realtime ticker data in your terminal
   licenses:
     - MIT
 - repo: freebsd
@@ -50,7 +50,7 @@
   binname: tickrs
   visiblename: tickrs
   version: 0.15.0
-  origversion: 2:0.15.0-2
+  origversion: 2:0.15.0-3
   status: newest
   summary: Realtime ticker data in your terminal
   licenses:

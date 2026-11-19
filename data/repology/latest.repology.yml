@@ -1,3 +1,23 @@
+- repo: scoop
+  subrepo: main
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: tickrs
@@ -144,26 +164,6 @@
     - ports@openbsd.org
   categories:
     - productivity
-- repo: parabola
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: solus
   srcname: tickrs
   binname: tickrs

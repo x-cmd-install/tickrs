@@ -1,26 +1,3 @@
-- repo: openbsd
-  srcname: productivity/tickrs
-  binname: tickrs
-  visiblename: productivity/tickrs
-  version: 0.15.0
-  origversion: null
-  status: newest
-  summary: realtime ticker data in your terminal
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - productivity
-- repo: parabola
-  subrepo: extra
-  srcname: tickrs
-  binname: tickrs
-  visiblename: tickrs
-  version: 0.15.0
-  origversion: 2:0.15.0-2
-  status: newest
-  summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
 - repo: scoop
   subrepo: main
   binname: tickrs
@@ -176,6 +153,29 @@
   summary: Realtime ticker data in your terminal
   maintainers:
     - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: openbsd
+  srcname: productivity/tickrs
+  binname: tickrs
+  visiblename: productivity/tickrs
+  version: 0.15.0
+  origversion: null
+  status: newest
+  summary: realtime ticker data in your terminal
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - productivity
+- repo: parabola
+  subrepo: extra
+  srcname: tickrs
+  binname: tickrs
+  visiblename: tickrs
+  version: 0.15.0
+  origversion: 2:0.15.0-2
+  status: newest
+  summary: Realtime ticker data in your terminal
   licenses:
     - MIT
 - repo: solus

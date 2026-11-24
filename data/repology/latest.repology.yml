@@ -1,3 +1,14 @@
+- repo: nix_stable_24_05
+  srcname: tickrs
+  visiblename: tickrs
+  version: 0.14.9
+  origversion: null
+  status: outdated
+  summary: Realtime ticker data in your terminal
+  maintainers:
+    - massimo@typish.io
+  licenses:
+    - MIT
 - repo: scoop
   subrepo: main
   binname: tickrs
@@ -62,7 +73,7 @@
   binname: tickrs
   visiblename: tickrs
   version: 0.15.0
-  origversion: 2:0.15.0-2
+  origversion: 2:0.15.0-3
   status: newest
   summary: Realtime ticker data in your terminal
   licenses:
@@ -87,17 +98,6 @@
   origversion: 2:0.15.0-3
   status: newest
   summary: Realtime ticker data in your terminal
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: tickrs
-  visiblename: tickrs
-  version: 0.14.9
-  origversion: null
-  status: outdated
-  summary: Realtime ticker data in your terminal
-  maintainers:
-    - massimo@typish.io
   licenses:
     - MIT
 - repo: nix_stable_24_11

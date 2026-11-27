@@ -45,7 +45,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,715 · **Forks**: 98 · **Open issues**: 81 · **Contributors**: 12
+- **Stars**: 1,716 · **Forks**: 98 · **Open issues**: 81 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -55,12 +55,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-28 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-30 | 0 | 0 | 1 | 1 | 1 | 0 |
-| 360d | 2025-12-01 | 1 | 6 | 2 | 2 | 3 | 11 |
-| last720d | 2024-12-06 | 2 | 8 | 2 | 3 | 9 | 16 |
+| 30d | 2026-10-28 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-28 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-29 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last180d | 2026-05-31 | 0 | 0 | 1 | 1 | 1 | 0 |
+| 360d | 2025-12-02 | 1 | 6 | 2 | 2 | 3 | 11 |
+| last720d | 2024-12-07 | 2 | 8 | 2 | 3 | 9 | 16 |
 
 ## Release assets
 
@@ -72,15 +72,6 @@ Lowest-scoring checks:
 | [tickrs-v0.15.0-x86_64-pc-windows-msvc.zip](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-pc-windows-msvc.zip) | 2.4 MiB | `native/win/x64` |
 | [tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/tarkah/tickrs/releases/download/v0.15.0/tickrs-v0.15.0-x86_64-unknown-linux-gnu.tar.gz) | 4.5 MiB | `native/linux/x64/glibc` |
 
-## Distribution status
-
-Reported by **17** distros on [repology.org](https://repology.org/project/tickrs). **12** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.15.0` | ✅ latest |
-| Nix unstable | `0.15.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for tickrs lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `tickrs` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -90,4 +81,4 @@ Install metadata for tickrs lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T06:20:58Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T06:10:17Z._
